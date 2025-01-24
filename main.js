@@ -158,7 +158,7 @@ async function executeRandomAyah() {
     choices.classList.remove("d-none")
     showResult.classList.add("d-none")
 
-    let response = await axios.get(`https://api.alquran.cloud/v1/ayah/${randomValue(6236)}`)
+    let response = await axios.get(`https://api.alquran.cloud/v1/ayah/${randomValue(6236)+1}`)
     
     ayah.innerHTML = response.data.data.text
 
@@ -170,7 +170,7 @@ async function executeRandomAyah() {
 
     let itera = 1;
     while(itera < 4) {
-        let randomSurahInfo = allSurahName[randomValue(114)-1]
+        let randomSurahInfo = allSurahName[randomValue(114)]
 
         if(randomSurahInfo.surahNumber == choicesArr[0].numberSurah 
         || randomSurahInfo.surahNumber == choicesArr[1].numberSurah
@@ -220,9 +220,12 @@ function sleep(ms) {
 }
 
 function randomValue(number) {
-    return Math.ceil(Math.random() * number);
+    return number > 0 ? Math.floor(Math.random() * number) : 0;
 }
 
 function shuffleArray(array) {
-    return array.sort(() => Math.random() - 0.5);
+    for(let i=array.length-1; i >= 0; i--) {
+        let j = randomValue(i+1);
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
