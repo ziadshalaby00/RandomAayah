@@ -111,25 +111,25 @@ main {
 }
 .choices button {
     font-size: 1.5rem;
-    border: 1px solid rgb(79, 79, 224);
-    background-color: rgb(179 179 241);
+    border: 1px solid #4f4fe0;
+    background-color: #b3b3f1;
     border-radius: 10px;
     color: #000;
 }
 .choices button:hover {
-    background-color: rgb(79, 79, 224);
+    background-color: #4d4de0;
     color: white;
 }
 .start {
     font-size: 1.2rem;
-    border: 1px solid rgb(214, 25, 25);
-    background-color: rgb(216, 65, 65);
+    border: 1px solid #7019B6;
+    background-color: #A65CF2;
     box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     color: #fff;
 }
 .start:hover {
-    background-color: rgb(214, 25, 25);
+    background-color: #9645DA;
     transform: scale(.95);
 }
 .d-none {
