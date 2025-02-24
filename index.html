@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./main.css" />
+    <script src="node_modules/axios/dist/axios.min.js" defer></script>
+    <script src="./main.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    
+    <title>Random Ayah</title>
+    <style>
+      .share-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .btn {
+        display: inline-block;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    .btn:hover {
+        opacity: 0.8;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <header class="d-flex-center">
+      Random Ayah
+      <div class="share-buttons">
+    </div>    
+    </header>
+    <main class="d-flex-center">
+        <div class="container">
+            <div class="intro d-flex-center">
+                من أي سورة هذه الآية؟
+            </div>
+            
+            <div class="ayah d-flex-center"></div>
+            
+            <div class="result">
+                <div class="choices d-none">
+                    <div class="choice1"></div>
+                    <div class="choice2"></div>
+                </div>
+                <div class="showResult d-none d-flex-center">
+                    
+                </div>
+                <div class="startAnext d-flex-center">
+                    <button class="start" onclick="executeRandomAyah()">Start</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="note d-flex-center">يُفضل دائمًا مراجعة النتائج في حال عدم التأكد منها.</div>
+    <footer class="d-flex-center">&copy; Ziad Shalaby 2025</footer>
+
+    <script>
+
+    </script>
+  </body>
+</html>
