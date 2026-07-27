@@ -1,12 +1,25 @@
 # RandomAayah
-# Verse Selection Website (Frontend)
-A frontend website that displays verses along with multiple choices, allowing users to select the correct Surah for each verse.
 
-# Technologies Used
-HTML - CSS - Vanilla JS - API
+A lightweight web-based quiz game that tests your knowledge of the Quran. The app displays a random verse and challenges you to identify which Surah it belongs to from four multiple-choice options.
 
-# Concepts Used
-API Integration
+## 🌐 Live Demo
 
-# Netlify link
-https://randomaayah.netlify.app 
+🔗 https://randomaayah.netlify.app
+
+## ✨ Features
+
+- 🎲 Fetches random verses from the Quran via API
+- 🎯 Four multiple-choice Surah options per question
+- ✅ Instant visual feedback (green for correct, red for wrong)
+- 📱 Fully responsive design across all screen sizes
+- 🔄 Unlimited rounds — play as long as you want
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Page structure |
+| CSS3 | Styling & responsive layout |
+| Vanilla JavaScript | Game logic & DOM manipulation |
+| AlQuran Cloud API | Quranic verses data |
+| Axios | HTTP requests |
