@@ -23,3 +23,13 @@ A lightweight web-based quiz game that tests your knowledge of the Quran. The ap
 | Vanilla JavaScript | Game logic & DOM manipulation |
 | AlQuran Cloud API | Quranic verses data |
 | Axios | HTTP requests |
+
+---
+
+## 📄 License
+
+Developed entirely by [Ziad Shalaby](https://github.com/ziadshalaby00).
+
+This project is licensed under the **MIT License**.
+
+---
