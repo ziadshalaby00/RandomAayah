@@ -2,10 +2,6 @@
 
 A lightweight web-based quiz game that tests your knowledge of the Quran. The app displays a random verse and challenges you to identify which Surah it belongs to from four multiple-choice options.
 
-## 🌐 Live Demo
-
-🔗 https://randomaayah.netlify.app
-
 ## ✨ Features
 
 - 🎲 Fetches random verses from the Quran via API
